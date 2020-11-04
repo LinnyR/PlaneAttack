@@ -8,11 +8,11 @@ import javax.swing.*;
 public class Enemy_Entity {
     public int num;//编号
     public int health;//生命值
-    public JLabel lable;//图片资源
-    public Enemy_Entity(int num,int health,JLabel lable){
+    public JLabel label;//图片资源
+    public Enemy_Entity(int num,int health,JLabel label){
         this.num = num;
         this.health = health;
-        this.lable = lable;
+        this.label = label;
     }
 
 }

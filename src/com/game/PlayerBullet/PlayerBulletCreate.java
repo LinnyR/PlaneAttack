@@ -2,6 +2,7 @@ package com.game.PlayerBullet;
 
 import com.game.Panel.Main;
 import com.game.Player.Player;
+import com.game.Player.Player_Entity;
 import com.game.Util.GameMusic;
 
 import javax.swing.*;
@@ -20,22 +21,49 @@ public class PlayerBulletCreate implements Runnable{
         Image temp1 = icon1.getImage().getScaledInstance(5, 11, icon1.getImage().SCALE_DEFAULT);
         icon1 = new ImageIcon(temp1);
 
+        ImageIcon icon2 = new ImageIcon("src/img/bullet2x.png");
+        Image temp2 = icon2.getImage().getScaledInstance(44, 8, icon2.getImage().SCALE_DEFAULT);
+        icon2 = new ImageIcon(temp2);
+
+        ImageIcon icon3 = new ImageIcon("src/img/bullet3x.png");
+        Image temp3 = icon3.getImage().getScaledInstance(44, 16, icon3.getImage().SCALE_DEFAULT);
+        icon3 = new ImageIcon(temp3);
+
         int count=0;
+        int count2=0;//用于延缓子弹发射音效的变量
         while(true){
             if(isActive==true){
                 count++;
                 //每循环10次创建一个子弹加入集合
                 if(count%10==0){
-                    if(Main.bullets_list.size()<5){
+                    count2++;
+                    if(Main.bullets_list.size()<4){
                         //创建子弹并设置图片
                         JLabel label_bullet = new JLabel();
-                        label_bullet.setIcon(icon1);
-                        label_bullet.setBounds(Main.player_entity.label.getX()+31,Main.player_entity.label.getY(), 5, 11);
+                        //一级单发子弹
+                        if(Main.player_entity.level==1){
+                            label_bullet.setIcon(icon1);
+                            label_bullet.setBounds(Main.player_entity.label.getX()+31,Main.player_entity.label.getY(), 5, 11);
+                        }else if(Main.player_entity.level==2){
+                            //二级双发子弹
+                            label_bullet.setIcon(icon2);
+                            label_bullet.setBounds(Main.player_entity.label.getX()+9,Main.player_entity.label.getY(), 44, 8);
+                        }else{
+                            //三级三发子弹
+                            label_bullet.setIcon(icon3);
+                            label_bullet.setBounds(Main.player_entity.label.getX()+9,Main.player_entity.label.getY(), 44, 16);
+                        }
                         //将子弹加入面板当中
                         Main.jp1.add(label_bullet);
                         //将子弹加入到list当中
                         Main.bullets_list.add(label_bullet);
-                        //播放子弹音效
+                        if(count2%2==0){
+                            //播放子弹音效
+                            new Thread(()->{
+                                GameMusic.Play("src\\music\\子弹射击.wav", 0.6);
+                            }).start();
+                            count2=0;
+                        }
 
                         count=0;
                     }
@@ -51,15 +79,26 @@ public class PlayerBulletCreate implements Runnable{
                     }catch (Exception e){
                         e.printStackTrace();
                     }
-                    Main.bullets_list.get(i).setLocation(Main.bullets_list.get(i).getX(), Main.bullets_list.get(i).getY()-5*Player.level);
+                    Main.bullets_list.get(i).setLocation(Main.bullets_list.get(i).getX(), Main.bullets_list.get(i).getY()-10);
                     //子弹到达指定位置
-                    if(Main.bullets_list.get(i).getY()<50){
-                        //将子弹从面板删除
-                        Main.jp1.remove(Main.bullets_list.get(i));
-                        //从集合中删除子弹
-                        Main.bullets_list.remove(Main.bullets_list.get(i));
-                        i--;
+                    if(Main.bullets_list.size()>0&&i<Main.bullets_list.size()){ //可能这时候 已经把当前下标的子弹删除了
+                        //玩家处于死亡状态 跳出循环 不移动子弹
+                        if(isActive==false){
+                            break;
+                        }
+                        if(Main.bullets_list.get(i).getY()<50){
+                            //将子弹从面板删除
+                            Main.jp1.remove(Main.bullets_list.get(i));
+                            //从集合中删除子弹
+                            Main.bullets_list.remove(Main.bullets_list.get(i));
+                            i--;
+                        }
                     }
+                    if(isActive){
+                        //子弹移动时攻击敌人
+                        PlayerBullet_Entity.attackEnemy();
+                    }
+
                 }
                 Main.jp1.repaint();//对panel1本身进行重绘
             }

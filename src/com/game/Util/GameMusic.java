@@ -2,13 +2,11 @@ package com.game.Util;
 
 import javax.sound.sampled.*;
 import java.io.File;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.util.Random;
 
 //音乐加载工具类
 public class GameMusic {
-    public static void Play(String fileurl) {
+    public static void Play(String fileurl,double vol) {
 
         try {
             AudioInputStream ais = AudioSystem.getAudioInputStream(new File(fileurl));
@@ -20,7 +18,7 @@ public class GameMusic {
             sdl.start();
             FloatControl fc=(FloatControl)sdl.getControl(FloatControl.Type.MASTER_GAIN);
             //value可以用来设置音量，从0-2.0
-            double value=2;
+            double value=vol;
             float dB = (float)
                     (Math.log(value==0.0?0.0001:value)/Math.log(10.0)*20.0);
             fc.setValue(dB);
@@ -36,5 +34,8 @@ public class GameMusic {
             e.printStackTrace();
         }
     }
+
+
+
 
 }

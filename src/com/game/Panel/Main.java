@@ -1,10 +1,14 @@
 package com.game.Panel;
 
+import com.game.Bomb.Bomb;
 import com.game.Enemy.Enemy;
 import com.game.Enemy.Enemy_Entity;
+import com.game.EnemyBullet.EnemyBullet_Entity;
 import com.game.Music.Music;
 import com.game.Player.Player;
 import com.game.Player.Player_Entity;
+import com.game.Supply.Supply;
+import com.game.Supply.Supply_Entity;
 import com.game.Time.Time;
 import com.game.Util.GameMusic;
 import sun.audio.AudioPlayer;
@@ -27,9 +31,12 @@ import java.util.List;
 public class Main extends JFrame {
     JPanel jp;//内容面板
     public static JPanel jp1 ;//放置图标的面板
-    public static List<Enemy_Entity> enemy_list = new ArrayList<>();//敌人列表
-    public static List<JLabel> bullets_list = new ArrayList<>();//玩家子弹列表
+    public static volatile List<JLabel> bullets_list ;//玩家子弹列表
+    public static volatile List<Enemy_Entity> enemy_list ;//敌人列表
+    public static volatile List<EnemyBullet_Entity> enemy_bullets_list ;//敌人子弹列表
+    public static volatile List<Supply_Entity> supply_list ;//补给列表
     public static JLabel label_Score = new JLabel();//积分榜
+    public static int score = 0;//积分数
     public static JLabel label_Time = new JLabel(); //显示时间
     public static Player_Entity player_entity = new Player_Entity();//玩家实体
     public static JLabel label_life = new JLabel();//生命图标
@@ -38,11 +45,22 @@ public class Main extends JFrame {
     public static JLabel label_bomb = new JLabel();//强力炸弹
     public static JLabel label_bomb_count = new JLabel();//强力炸弹数量
 
+    //类一加载就执行
     static {
-        GameMusic.Play("src/music/test.wav");
+        //预加载音乐
+        GameMusic.Play("src/music/test.wav",0);
+        bullets_list = new ArrayList<>();//玩家子弹列表
+        enemy_list = new ArrayList<>();//敌人列表
+        enemy_bullets_list = new ArrayList<>();//敌人子弹列表
+        supply_list = new ArrayList<>();//补给列表
+        player_entity = new Player_Entity();//玩家实体
     }
+
+
     public void init(){
+
         JOptionPane.showMessageDialog(null,"开始游戏？","飞机大战", JOptionPane.WARNING_MESSAGE);
+
         setResizable(false); //不可改变大小
         setVisible(true); //可见
         setLocation(600, 200);//设置位置
@@ -76,9 +94,9 @@ public class Main extends JFrame {
         getLayeredPane().add(photo, new Integer(Integer.MIN_VALUE));
 
         //积分榜
-        label_Score.setBounds(50, 30, 120, 25);
+        label_Score.setBounds(50, 30, 180, 25);
         label_Score.setFont(new Font("宋体", Font.BOLD, 18));
-        label_Score.setText("当前积分:"+0);
+        label_Score.setText("当前积分:"+score);
 
         //强力炸弹
         //修建图片
@@ -91,7 +109,7 @@ public class Main extends JFrame {
 
         //强力炸弹数量
         label_bomb_count.setBounds(405, 615, 120, 25);
-        label_bomb_count.setFont(new Font("宋体", Font.BOLD, 27));
+        label_bomb_count.setFont(new Font("宋体", Font.BOLD, 20));
         label_bomb_count.setText(" X "+player_entity.bomb);
 
         //生命图片
@@ -105,7 +123,7 @@ public class Main extends JFrame {
 
         //生命数量
         label_life_Count.setBounds(70, 615, 120, 25);
-        label_life_Count.setFont(new Font("宋体", Font.BOLD, 27));
+        label_life_Count.setFont(new Font("宋体", Font.BOLD, 20));
         label_life_Count.setText(" X "+player_entity.health);
 
 
@@ -117,7 +135,7 @@ public class Main extends JFrame {
         //时间线程
         label_Time.setBounds(300, 30, 120, 25);
         label_Time.setFont(new Font("宋体", Font.BOLD, 18));
-        label_Time.setText("倒计时：90s");
+        label_Time.setText("倒计时：120s");
         Thread thread_time = new Thread(new Time());
         thread_time.start();
 
@@ -137,10 +155,20 @@ public class Main extends JFrame {
         Thread thread_player = new Thread(player);
         thread_player.start();
 
-        //敌人线程
+        //全屏炸弹线程
+        Bomb bomb = new Bomb();
+        Thread thread_bomb = new Thread(bomb);
+        thread_bomb.start();
+
+        //开启敌人线程
         Enemy enemy = new Enemy();
         Thread thread_enemy = new Thread(enemy);
         thread_enemy.start();
+
+        //补给品线程
+        Supply supply = new Supply();
+        Thread thread_supply = new Thread(supply);
+        thread_supply.start();
 
         //玩家移动
         addKeyListener(new KeyListener() {
@@ -153,25 +181,7 @@ public class Main extends JFrame {
             public void keyPressed(KeyEvent e) {
                 //空格使用全屏炸弹
                 if(e.getKeyCode()==KeyEvent.VK_SPACE){
-                    //如果炸弹数>0
-                    if(player_entity.bomb>0){
-                        //玩家炸弹数-1
-                        player_entity.bomb--;
-                        //重新设置炸弹数量
-                        Main.label_bomb_count.setText(" X "+player_entity.bomb);
-                        //消灭所有敌人
-                        //暂停Enemy线程（不要继续创建及移动敌人）
-                        Enemy.isTure = false;
-                        //缓冲10ms 不能直接清空集合，否则数组下标越界
-                        try{
-                            Thread.sleep(10);
-                        }catch (Exception E){
-                            E.printStackTrace();
-                        }
-                        //从面板上删除所有
-                        for
-                    }
-
+                    Bomb.isUse = true;
                 }else{
                     //玩家移动
                     player.setKey(e.getKeyCode());

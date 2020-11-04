@@ -7,7 +7,7 @@ import javax.swing.*;
 public class Time implements Runnable {
     @Override
     public void run() {
-        int time = 90;
+        int time = 120;
         while(true){
             try{
                 Thread.sleep(1000);
