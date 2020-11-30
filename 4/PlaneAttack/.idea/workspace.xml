@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="PlaneAttack:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="77df64c2-0ac5-4459-958e-33ad41c29ecb" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/game/Panel/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="247" selection-start-line="241" selection-start-column="15" selection-end-line="247" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/game/Panel/RecordFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1893">
+              <caret line="56" column="64" selection-start-line="56" selection-start-column="64" selection-end-line="56" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/game/Util/GameMusic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-277">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/game/Supply/Supply_Entity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3261">
+              <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/game/Supply/Supply.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-903">
+              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/game/Music/Music.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="26" column="55" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/game/Panel/ChooseFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-345">
+              <caret line="201" column="45" lean-forward="true" selection-start-line="201" selection-start-column="31" selection-end-line="201" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/game/Enemy/Enemy_Entity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/game/EnemyBullet/EnemyBullet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-111">
+              <caret line="91" column="42" selection-start-line="91" selection-start-column="42" selection-end-line="91" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/game/EnemyBullet/EnemyBullet_Entity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3693">
+              <caret line="95" column="59" lean-forward="true" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>System.out</find>
+      <find>163</find>
+      <find>System</find>
+      <find>186</find>
+      <find>Sys</find>
+      <find>//1000ms</find>
+      <find>new Main().setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);;</find>
+      <find>//游戏结束</find>
+      <find>//1000ms无敌时间</find>
+      <find>//无敌时间</find>
+      <find>//2的</find>
+      <find>//2000ms</find>
+      <find>火星</find>
+      <find>//2000</find>
+      <find>玩家1</find>
+      <find>玩家1_2</find>
+      <find>玩家1_1</find>
+      <find>玩家1_3</find>
+      <find>Main.player_entity.player_index</find>
+      <find>奥义语音</find>
+      <find>奥义语</find>
+      <find>1.png</find>
+      <find>奥义字幕</find>
+      <find>record</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\ideaProjects\PlaneAttack\src\img</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/game/Enemy/Enemy_Entity.java" />
+        <option value="$PROJECT_DIR$/src/com/game/Panel/StartGame.java" />
+        <option value="$PROJECT_DIR$/src/com/game/Util/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/game/BossBullet/BossBullet.java" />
+        <option value="$PROJECT_DIR$/src/com/game/Enemy/Enemy.java" />
+        <option value="$PROJECT_DIR$/src/com/game/Time/Time.java" />
+        <option value="$PROJECT_DIR$/src/com/game/Supply/Supply.java" />
+        <option value="$PROJECT_DIR$/src/com/game/Boss/Boss_Entity.java" />
+        <option value="$PROJECT_DIR$/src/com/game/Supply/Supply_Entity.java" />
+        <option value="$PROJECT_DIR$/src/com/game/BossBullet/BossBullet_Entity.java" />
+        <option value="$PROJECT_DIR$/src/com/game/Panel/RecordFrame.java" />
+        <option value="$PROJECT_DIR$/src/record/记录.txt" />
+        <option value="$PROJECT_DIR$/src/com/game/Panel/ChooseFrame.java" />
+        <option value="$PROJECT_DIR$/src/com/game/EnemyBullet/EnemyBullet_Entity.java" />
+        <option value="$PROJECT_DIR$/src/com/game/EnemyBullet/EnemyBullet.java" />
+        <option value="$PROJECT_DIR$/src/com/game/PlayerBullet/PlayerBullet_Entity.java" />
+        <option value="$PROJECT_DIR$/src/com/game/PlayerBullet/PlayerBulletCreate.java" />
+        <option value="$PROJECT_DIR$/src/com/game/Player/Player_Entity.java" />
+        <option value="$PROJECT_DIR$/src/com/game/Bomb/Bomb.java" />
+        <option value="$PROJECT_DIR$/src/com/game/Panel/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/game/Util/GameMusic.java" />
+        <option value="$PROJECT_DIR$/src/com/game/Player/Player.java" />
+        <option value="$PROJECT_DIR$/src/com/game/Music/Music.java" />
+        <option value="$PROJECT_DIR$/src/com/game/Boss/Boss.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="50" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PlaneAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlaneAttack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlaneAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlaneAttack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlaneAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlaneAttack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlaneAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlaneAttack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="Bomb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlaneAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlaneAttack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="Boss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlaneAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlaneAttack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="BossBullet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlaneAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlaneAttack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="Enemy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlaneAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlaneAttack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="EnemyBullet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlaneAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlaneAttack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="Music" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlaneAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlaneAttack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="Panel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlaneAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlaneAttack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="Player" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlaneAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlaneAttack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="PlayerBullet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlaneAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlaneAttack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="Supply" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlaneAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlaneAttack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="Time" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlaneAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlaneAttack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="Util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlaneAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlaneAttack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlaneAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlaneAttack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="music" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlaneAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlaneAttack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="record" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlaneAttack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606745837574" />
+    <property name="last_opened_file_path" value="D:/" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProjects\PlaneAttack\src\img" />
+      <recent name="D:\ideaProjects\PlaneAttack\src\music" />
+      <recent name="D:\ideaProjects\PlaneAttack\src\record" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="GameMusic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.game.Util.GameMusic" />
+      <module name="PlaneAttack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.game.Util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.game.Panel.Main" />
+      <module name="PlaneAttack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.game.Panel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="PlaneAttack" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.game.Util.Test" />
+      <module name="PlaneAttack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.game.Util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.GameMusic" />
+      <item itemvalue="Application.Test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.GameMusic" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77df64c2-0ac5-4459-958e-33ad41c29ecb" name="Default Changelist" comment="" />
+      <created>1603623673795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603623673795</updated>
+      <workItem from="1603623677531" duration="4888000" />
+      <workItem from="1603634064939" duration="1353000" />
+      <workItem from="1603703809542" duration="14416000" />
+      <workItem from="1603721814030" duration="390000" />
+      <workItem from="1603760279346" duration="3393000" />
+      <workItem from="1603792412868" duration="8117000" />
+      <workItem from="1603845906360" duration="16598000" />
+      <workItem from="1603885946840" duration="7217000" />
+      <workItem from="1603968920702" duration="8671000" />
+      <workItem from="1604028981269" duration="1966000" />
+      <workItem from="1604051968609" duration="7259000" />
+      <workItem from="1604072685846" duration="740000" />
+      <workItem from="1604105864626" duration="4186000" />
+      <workItem from="1604215517635" duration="7555000" />
+      <workItem from="1604324594628" duration="1457000" />
+      <workItem from="1604390547966" duration="5309000" />
+      <workItem from="1604451166699" duration="16431000" />
+      <workItem from="1604497800063" duration="3267000" />
+      <workItem from="1604542889731" duration="3455000" />
+      <workItem from="1604551812527" duration="2574000" />
+      <workItem from="1604648785487" duration="8366000" />
+      <workItem from="1604672449992" duration="4493000" />
+      <workItem from="1604734958812" duration="4634000" />
+      <workItem from="1604759913817" duration="2888000" />
+      <workItem from="1604802844645" duration="6720000" />
+      <workItem from="1604810646967" duration="437000" />
+      <workItem from="1604833846160" duration="14464000" />
+      <workItem from="1604909531986" duration="5663000" />
+      <workItem from="1604932331561" duration="3307000" />
+      <workItem from="1604973355179" duration="5772000" />
+      <workItem from="1605002531004" duration="11311000" />
+      <workItem from="1605055231110" duration="20060000" />
+      <workItem from="1605097040594" duration="10667000" />
+      <workItem from="1605191434332" duration="4966000" />
+      <workItem from="1605230524002" duration="1477000" />
+      <workItem from="1605253625998" duration="6137000" />
+      <workItem from="1605274393062" duration="6165000" />
+      <workItem from="1605280780617" duration="267000" />
+      <workItem from="1605435071112" duration="14561000" />
+      <workItem from="1605513399184" duration="6710000" />
+      <workItem from="1605535048426" duration="4519000" />
+      <workItem from="1605601293901" duration="4336000" />
+      <workItem from="1605661090385" duration="17399000" />
+      <workItem from="1605700240263" duration="9358000" />
+      <workItem from="1605754739456" duration="3648000" />
+      <workItem from="1605770726516" duration="10637000" />
+      <workItem from="1605793730268" duration="4856000" />
+      <workItem from="1606137558006" duration="5157000" />
+      <workItem from="1606198798975" duration="7185000" />
+      <workItem from="1606268803305" duration="5678000" />
+      <workItem from="1606359605125" duration="1719000" />
+      <workItem from="1606364332564" duration="52000" />
+      <workItem from="1606375625239" duration="4617000" />
+      <workItem from="1606400582411" duration="5650000" />
+      <workItem from="1606443451187" duration="3731000" />
+      <workItem from="1606464912049" duration="3076000" />
+      <workItem from="1606550697420" duration="11699000" />
+      <workItem from="1606625966453" duration="820000" />
+      <workItem from="1606626934089" duration="255000" />
+      <workItem from="1606638225724" duration="10328000" />
+      <workItem from="1606743346770" duration="2467000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="375494000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8105263" visible="true" weight="0.3197051" />
+      <window_info id="Structure" order="1" sideWeight="0.18947369" side_tool="true" weight="0.25670242" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49798927" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48592493" visible="true" weight="0.3281471" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49798927" weight="0.39886847" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.51407504" side_tool="true" visible="true" weight="0.3281471" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49865952" weight="0.32956153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3297587" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.3297587" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/img/岛屿背景.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/img/峡谷背景.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/img/岛屿地图(长).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/峡谷背景(长).jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/game/Time/Time.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/飞机大战图标.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/返回.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/返回2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/玩家1选择.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/玩家1.png" />
+    <entry file="file://$PROJECT_DIR$/src/img/玩家2.png" />
+    <entry file="file://$PROJECT_DIR$/src/img/玩家3.png" />
+    <entry file="file://$PROJECT_DIR$/src/img/玩家3选择.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/玩家3选择2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/玩家1奥义图.png" />
+    <entry file="file://$PROJECT_DIR$/src/img/playerBullet.png" />
+    <entry file="file://$PROJECT_DIR$/src/img/奥义字幕.png" />
+    <entry file="file://$PROJECT_DIR$/src/img/玩家奥义1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/玩家奥义2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/玩家奥义3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/玩家1奥义字幕.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/game/PlayerBullet/PlayerBullet_Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3257">
+          <caret line="209" column="58" lean-forward="true" selection-start-line="209" selection-start-column="58" selection-end-line="209" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/闪电1.png" />
+    <entry file="file://$PROJECT_DIR$/src/img/闪电2.png" />
+    <entry file="file://$PROJECT_DIR$/src/img/闪电3.png" />
+    <entry file="file://$PROJECT_DIR$/src/img/闪电4.png" />
+    <entry file="file://$PROJECT_DIR$/src/img/闪电5.png" />
+    <entry file="file://$PROJECT_DIR$/src/img/闪电6.png" />
+    <entry file="file://$PROJECT_DIR$/src/img/闪电7.png" />
+    <entry file="file://$PROJECT_DIR$/src/com/game/PlayerBullet/PlayerBulletCreate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="25" column="59" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/game/Util/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/game/Player/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="96" column="30" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/Boss1名字.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/game/Player/Player_Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/record/记录.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/game/Boss/Boss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/game/Bomb/Bomb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8733">
+          <caret line="158" column="66" selection-start-line="158" selection-start-column="19" selection-end-line="158" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/game/Boss/Boss_Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4089">
+          <caret line="434" column="17" lean-forward="true" selection-start-line="434" selection-start-column="17" selection-end-line="434" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/game/BossBullet/BossBullet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="79" column="51" selection-start-line="79" selection-start-column="51" selection-end-line="79" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/game/BossBullet/BossBullet_Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-867">
+          <caret line="250" column="59" selection-start-line="250" selection-start-column="59" selection-end-line="250" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/game/Enemy/Enemy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1263">
+          <caret line="57" column="36" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="57" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/game/Enemy/Enemy_Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/game/EnemyBullet/EnemyBullet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="91" column="42" selection-start-line="91" selection-start-column="42" selection-end-line="91" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/game/EnemyBullet/EnemyBullet_Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3693">
+          <caret line="95" column="59" lean-forward="true" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/game/Music/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/game/Panel/ChooseFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345">
+          <caret line="201" column="45" lean-forward="true" selection-start-line="201" selection-start-column="31" selection-end-line="201" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/game/Panel/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="247" selection-start-line="241" selection-start-column="15" selection-end-line="247" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/game/Panel/RecordFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1893">
+          <caret line="56" column="64" selection-start-line="56" selection-start-column="64" selection-end-line="56" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/game/Util/GameMusic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-277">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/game/Supply/Supply_Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3261">
+          <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/game/Supply/Supply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-903">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>PlaneAttack:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>PlaneAttack</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
